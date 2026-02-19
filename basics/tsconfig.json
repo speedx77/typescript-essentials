@@ -1,0 +1,12 @@
+{
+    // will compile all ts files from these directories
+    "include" :[
+        "./src/**/*.ts"
+    ],
+
+    // will output the js into this folder and using this version of js
+    "compilerOptions": {
+        "outDir" : "./build",
+        "target": "es2020"
+    }
+}
